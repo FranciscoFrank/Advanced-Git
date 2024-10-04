@@ -1,8 +1,8 @@
 # Команди, які я використав, і чому я їх використав
 
 ## File contents
-### 1. [First task on Git](#1-first-task-on-git) 
-### 2. [Second task on Git](#2-second-task-on-git)
+### 1. [First task on Git](#1-first-task-on-git-1) 
+### 2. [Second task on Git](#2-second-task-on-git-1)
 
 #
 
