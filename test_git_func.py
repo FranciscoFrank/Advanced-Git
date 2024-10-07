@@ -45,3 +45,24 @@ c = float(input("Введіть сторону c: "))
 
 result = classify_triangle(a, b, c)
 print(result)
+
+from geopy.geocoders import Nominatim
+
+def get_location_info(latitude, longitude):
+    # Створення об'єкта геокодера
+    geolocator = Nominatim(user_agent="geoapiExercises")
+    
+    # Отримання адреси за координатами
+    location = geolocator.reverse((latitude, longitude), language='uk')
+    
+    if location:
+        return f"Місце: {location.address}"
+    else:
+        return "Не вдалося знайти місце за заданими координатами."
+
+# Приклад використання
+latitude = float(input("Введіть широту: "))
+longitude = float(input("Введіть довготу: "))
+
+result = get_location_info(latitude, longitude)
+print(result)
