@@ -11,7 +11,7 @@ def find_common_elements(seq1, seq2):
     else:
         print("Спільні елементи не знайдено")
 seq1 = [1, 2, 3, 4]
-seq2 = [3, 4 5, 6]
+seq2 = [3, 4, 5, 6]
 find_common_elements(seq1, seq2)
 
 def classify_triangle(a, b, c):
